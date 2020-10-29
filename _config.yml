@@ -1,0 +1,4 @@
+name: Mfc Website
+markdown: kramdown
+url: https://certificate.mf-chan.com
+permalink: /:categories/:slug

@@ -1,0 +1,15 @@
+---
+layout: default
+title: Sertifikat
+---
+
+<section class="row certificate-feed">
+  {% for post in site.posts %}
+  <div class="col-xs-6 col-sm-4 col-md-3">
+    <a href="{{ post.url }}">
+      <div class="card" style="background: url({{ site.url }}/lib/thumb/{{ post.slug }}.jpg) center center no-repeat;"
+        title="{{ post.title }}"></div>
+    </a>
+  </div>
+  {% endfor %}
+</section>

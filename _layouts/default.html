@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta property="og:title" content="Sertifikat Mfc">
+  <meta property="og:site_name" content="Mfc Website">
+  <meta property="og:type" content="website">
+  <meta property="og:description" content="Koleksi sertifikat oleh Mfc">
+  <meta property="og:image" content="https://mf-chan.com/og.jpg">
+
+  <link rel="icon" type="image/x-icon" href="{{ site.url }}/res/img/favicon.png">
+  <title>{{ page.title }} | {{ site.name }}</title>
+
+  <script>
+    window.onload = function () {
+      alert("Website ini masih dalam tahap pengembangan.");
+    }
+  </script>
+  
+  {% include style.html %}
+  {% include analytics.html %}
+</head>
+
+<body>
+  <div class="scroll-indicator">
+    <div id="bar"></div>
+  </div>
+  <header class="container">
+    <div class="row">
+      <div class="col-sm-6">
+        <span>Sertifikatnya Mfc</span>
+      </div>
+      <div class="col-sm-6 col-md-4 col-md-offset-2 search-box">
+        <div class="gcse-search"></div>
+      </div>
+    </div>
+  </header>
+
+  <section class="jumbotron">
+    <h1>Selamat datang di koleksi Sertifikat Mfc!</h1>
+  </section>
+
+  <section class="container">
+    {{ content }}
+  </section>
+
+  <footer class="container">
+    <div class="row">
+      <div class="col-sm-6 copyright">
+        <a href="https://mf-chan.com" target="_blank">Mfc</a> &copy;
+        <script>
+          if (new Date().getFullYear() > 2018) {
+            document.write('2018 - ' + new Date().getFullYear());
+          } else {
+            document.write(new Date().getFullYear());
+          }
+        </script>
+      </div>
+      <div class="col-sm-6 license">
+        Laman daring ini berlisensi <a href="https://opensource.org/licenses/MIT" target="_blank">MIT</a>
+      </div>
+    </div>
+  </footer>
+
+  {% include script.html %}
+</body>
+
+</html>
