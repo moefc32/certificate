@@ -1,0 +1,7 @@
+---
+layout:   certificate
+title:    "Creative Curriculum Vitae Information"
+slug:     pemateri-creacvon
+category: pemateri
+issuer:   "UKM Central Computer Improvement Universitas Telkom"
+---
