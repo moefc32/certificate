@@ -1,0 +1,7 @@
+---
+layout:   certificate
+title:    "Mix Method Research : What it is and What it Could Be"
+slug:     seminar-fpebupi
+category: seminar
+issuer:   "Fakultas Pendidikan Ekonomi dan Bisnis Universitas Pendidikan Indonesia"
+---

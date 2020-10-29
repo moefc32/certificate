@@ -1,0 +1,7 @@
+---
+layout:   certificate
+title:    "App Smashing #1 : Mendeley X Publish or Perish"
+slug:     seminar-temanacara02
+category: seminar
+issuer:   "Temanacara"
+---
