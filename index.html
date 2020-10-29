@@ -5,11 +5,18 @@ title: Sertifikat
 
 <section class="row certificate-feed">
   {% for post in site.posts %}
-  <div class="col-xs-6 col-sm-4 col-md-3">
+  <div class="col-xs-6 col-sm-4 col-md-3" title="{{ post.title }}">
     <a href="{{ post.url }}">
-      <div class="card" style="background: url({{ site.url }}/lib/thumb/{{ post.slug }}.jpg) center center no-repeat;"
-        title="{{ post.title }}"></div>
+      <div class="card">
+        <div class="thumb"
+          style="background: url({{ site.url }}/lib/thumb/{{ post.slug }}.jpg) center center no-repeat;"></div>
+      </div>
     </a>
+    <div class="card-description">
+      <h2>{{ post.title }}</h2>
+      <p><i class="fas fa-calendar fa-fw"></i> {{ post.date | date: "%d/%m/%Y" }}</p>
+      <p><i class="fas fa-certificate fa-fw"></i> {{ post.issuer }}</p>
+    </div>
   </div>
   {% endfor %}
 </section>
