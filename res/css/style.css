@@ -29,10 +29,11 @@ embed {
   font-size: 16px !important;
 }
 
-header span {
+header .home a {
   margin: 0;
   font-size: 1.75em;
   line-height: 100px;
+  color: #424242;
 }
 
 header .search-box {
