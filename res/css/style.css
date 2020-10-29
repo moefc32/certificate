@@ -29,6 +29,12 @@ embed {
   font-size: 16px !important;
 }
 
+.far,
+.fas,
+.fab {
+  margin-right: 5px;
+}
+
 header .home a {
   margin: 0;
   font-size: 1.75em;
@@ -102,10 +108,15 @@ aside .search-box {
 }
 
 .certificate-detail .meta span {
+  display: inline-block;
   margin-right: 15px;
   padding: 5px 15px;
   font-size: 85%;
   font-weight: initial;
+}
+
+.certificate-detail .meta span:first-child {
+  margin-bottom: 15px;
 }
 
 .certificate-detail .meta span:not(:first-child) {
@@ -161,6 +172,10 @@ input.gsc-input,
 
   header .search-box>div {
     width: 100%;
+  }
+
+  .certificate-detail .meta span:first-child {
+    margin-bottom: 0;
   }
 
   footer .copyright {
