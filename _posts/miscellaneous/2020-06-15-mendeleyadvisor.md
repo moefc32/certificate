@@ -1,7 +1,7 @@
 ---
 layout:   certificate
 title:    "Mendeley Advisor"
-slug:     mendeley-advisor
+slug:     mendeleyadvisor
 category: miscellaneous
 issuer:   "Elsevier"
 ---
