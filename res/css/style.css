@@ -25,9 +25,10 @@ object {
   background: #525659;
 }
 
-object p {
-  padding: 30px 50px;
-  text-align: center;
+object img {
+  width: 100%;
+  margin-bottom: 30px;
+  border: solid 15px #525659;
 }
 
 .btn {
