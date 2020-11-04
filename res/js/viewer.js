@@ -11,7 +11,6 @@ function scrollIndicator() {
 
 // If absolute URL from the remote server is provided, configure the CORS
 // header on that server.
-var url = "{{ site.url }}/lib/{{ page.slug }}.pdf }}";
 
 // Loaded via <script> tag, create shortcut to access PDF.js exports.
 var pdfjsLib = window['pdfjs-dist/build/pdf'];
