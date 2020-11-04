@@ -33,16 +33,14 @@
     </div>
   </header>
 
-  <object type="application/pdf" data="{{ site.url }}/lib/{{ page.slug }}.pdf#view=Fit&toolbar=0&navpanes=0&scrollbar=0">
-    <p>Maaf, sertifikat tidak dapat ditampilkan saat ini.</p>
-  </object>
+  <canvas id="viewer"></canvas>
 
   <section class="container certificate-detail">
     <div class="row">
       <main class="col-md-10">
         <h1>{{ page.title }}</h1>
         <p class="meta">
-          <span class="label label-primary">{{ page.category }}</span>
+          <span class="category-label">{{ page.category }}</span>
           <br class="visible-xs-block">
           <span><i class="fas fa-calendar fa-fw"></i> {{ page.date | date: "%d/%m/%Y" }}</span>
           <br class="visible-xs-block">
@@ -70,7 +68,7 @@
     </div>
   </footer>
 
-  {% include script.html %}
+  {% include viewer.html %}
 </body>
 
 </html>

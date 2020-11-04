@@ -9,7 +9,9 @@ title: Sertifikat
     <a href="{{ post.url }}">
       <div class="card">
         <div class="thumb"
-          style="background: url({{ site.url }}/lib/thumb/{{ post.slug }}.jpg) center center no-repeat;"></div>
+          style="background: url({{ site.url }}/lib/thumb/{{ post.slug }}.jpg) center center no-repeat;">
+          <span class="category-label">{{ post.category }}</span>
+        </div>
       </div>
     </a>
     <div class="card-description">
