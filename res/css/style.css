@@ -74,12 +74,17 @@ header .search-box {
     url(../img/certificate.jpg) center center no-repeat;
   background-size: cover;
   text-align: center;
+  color: #fff;
 }
 
 .jumbotron h1 {
-  margin: 15px 30px;
-  color: #fff;
+  margin: 0 30px 15px;
   font-size: 1.5em;
+}
+
+.jumbotron p {
+  margin: 0 30px;
+  font-size: 16px;
 }
 
 .certificate-feed {
@@ -250,7 +255,7 @@ input.gsc-input,
   }
 
   .jumbotron h1 {
-    margin: 30px;
+    margin: 0 30px 15px;
     font-size: 2em;
   }
 }
