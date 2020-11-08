@@ -14,12 +14,6 @@
   <link rel="icon" type="image/x-icon" href="{{ site.url }}/res/img/favicon.svg">
   <title>Kategori "{{ page.tag }}" | {{ site.name }}</title>
 
-  <script>
-    window.onload = function () {
-      alert("Website ini masih dalam tahap pengembangan.");
-    }
-  </script>
-
   {% include style.html %}
   {% include analytics.html %}
 </head>
@@ -44,25 +38,27 @@
     <p>Ada {{ site.categories[page.tag] | size }} sertifikat di kategori ini</p>
   </section>
 
-  <section class="container">
-    {% for post in site.categories[page.tag] %}
-    <div class="col-xs-6 col-sm-4 col-md-3" title="{{ post.title }}">
-      <a href="{{ post.url }}">
-        <div class="card">
-          <div class="thumb"
-            style="background: url({{ site.url }}/lib/thumb/{{ post.slug }}.jpg) center center no-repeat;">
-            <span class="category-label">{{ post.category }}</span>
+  <div class="container">
+    <section class="row certificate-feed">
+      {% for post in site.categories[page.tag] %}
+      <div class="col-sm-4 col-md-3" title="{{ post.title }}">
+        <a href="{{ post.url }}">
+          <div class="card">
+            <div class="thumb"
+              style="background: url({{ site.url }}/lib/thumb/{{ post.slug }}.jpg) center center no-repeat;">
+              <span class="category-label">{{ post.category }}</span>
+            </div>
           </div>
+        </a>
+        <div class="card-description">
+          <h2>{{ post.title }}</h2>
+          <p><i class="fas fa-calendar fa-fw"></i> {{ post.date | date: "%d/%m/%Y" }}</p>
+          <p><i class="fas fa-certificate fa-fw"></i> {{ post.issuer }}</p>
         </div>
-      </a>
-      <div class="card-description">
-        <h2>{{ post.title }}</h2>
-        <p><i class="fas fa-calendar fa-fw"></i> {{ post.date | date: "%d/%m/%Y" }}</p>
-        <p><i class="fas fa-certificate fa-fw"></i> {{ post.issuer }}</p>
       </div>
-    </div>
-    {% endfor %}
-  </section>
+      {% endfor %}
+    </section>
+  </div>
 
   <footer class="container">
     <div class="row">
