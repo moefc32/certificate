@@ -1,0 +1,4 @@
+---
+tag: lomba
+permalink: "/lomba"
+---

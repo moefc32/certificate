@@ -1,0 +1,4 @@
+---
+tag: ormawa
+permalink: "/ormawa"
+---

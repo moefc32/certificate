@@ -1,0 +1,4 @@
+---
+tag: coursera
+permalink: "/coursera"
+---

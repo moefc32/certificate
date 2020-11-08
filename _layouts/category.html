@@ -12,7 +12,13 @@
   <meta property="og:image" content="https://mf-chan.com/og.jpg">
 
   <link rel="icon" type="image/x-icon" href="{{ site.url }}/res/img/favicon.svg">
-  <title>[Sertifikat] {{ page.title }} | {{ site.name }}</title>
+  <title>Kategori "{{ page.tag }}" | {{ site.name }}</title>
+
+  <script>
+    window.onload = function () {
+      alert("Website ini masih dalam tahap pengembangan.");
+    }
+  </script>
 
   {% include style.html %}
   {% include analytics.html %}
@@ -33,26 +39,29 @@
     </div>
   </header>
 
-  <object type="application/pdf"
-    data="{{ site.url }}/lib/{{ page.slug }}.pdf#view=Fit&toolbar=0&navpanes=0&scrollbar=0">
-    <img src="{{ site.url }}/lib/thumb/{{ page.slug }}.jpg" alt="Sertifikat {{ page.title }}">
-  </object>
+  <section class="jumbotron">
+    <h1>{{ page.tag }}</h1>
+    <p>Ada {{ site.categories[page.tag] | size }} sertifikat di kategori ini</p>
+  </section>
 
-  <section class="container certificate-detail">
-    <div class="row">
-      <main class="col-md-10">
-        <h1>{{ page.title }}</h1>
-        <p class="meta">
-          <a href="{{ site.url }}/{{ page.category }}">
-            <span class="category-label">{{ page.category }}</span>
-          </a>
-          <br class="visible-xs-block">
-          <span><i class="fas fa-calendar fa-fw"></i> {{ page.date | date: "%d/%m/%Y" }}</span>
-          <br class="visible-xs-block">
-          <span><i class="fas fa-certificate fa-fw"></i> Diterbitkan oleh <strong>{{ page.issuer }}</strong></span>
-        </p>
-      </main>
+  <section class="container">
+    {% for post in site.categories[page.tag] %}
+    <div class="col-xs-6 col-sm-4 col-md-3" title="{{ post.title }}">
+      <a href="{{ post.url }}">
+        <div class="card">
+          <div class="thumb"
+            style="background: url({{ site.url }}/lib/thumb/{{ post.slug }}.jpg) center center no-repeat;">
+            <span class="category-label">{{ post.category }}</span>
+          </div>
+        </div>
+      </a>
+      <div class="card-description">
+        <h2>{{ post.title }}</h2>
+        <p><i class="fas fa-calendar fa-fw"></i> {{ post.date | date: "%d/%m/%Y" }}</p>
+        <p><i class="fas fa-certificate fa-fw"></i> {{ post.issuer }}</p>
+      </div>
     </div>
+    {% endfor %}
   </section>
 
   <footer class="container">

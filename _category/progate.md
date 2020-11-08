@@ -1,0 +1,4 @@
+---
+tag: progate
+permalink: "/progate"
+---

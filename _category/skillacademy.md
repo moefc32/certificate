@@ -1,0 +1,4 @@
+---
+tag: skillacademy
+permalink: "/skillacademy"
+---

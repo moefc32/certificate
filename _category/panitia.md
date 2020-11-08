@@ -1,0 +1,4 @@
+---
+tag: panitia
+permalink: "/panitia"
+---

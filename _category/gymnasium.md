@@ -1,0 +1,4 @@
+---
+tag: gymnasium
+permalink: "/gymnasium"
+---
