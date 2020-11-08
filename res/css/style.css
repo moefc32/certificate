@@ -101,12 +101,13 @@ header .search-box {
 }
 
 .card .thumb {
+  display: block;
   width: 100%;
   padding-top: 70%;
   background-size: contain !important;
 }
 
-.card .thumb span.category-label {
+.card a.category-label {
   position: absolute;
   z-index: 100;
   bottom: 10px;
