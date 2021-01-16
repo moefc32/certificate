@@ -107,6 +107,10 @@ header .search-box {
   background-size: contain !important;
 }
 
+.card .lazy {
+  background-image: none !important;
+}
+
 .card a.category-label {
   position: absolute;
   z-index: 100;

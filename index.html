@@ -7,7 +7,7 @@ title: Sertifikat
   {% for post in site.posts %}
   <div class="col-sm-4 col-md-3" title="{{ post.title }}">
     <div class="card">
-      <a href="{{ post.url }}" class="thumb"
+      <a href="{{ post.url }}" class="thumb lazy"
         style="background: url({{ site.url }}/lib/thumb/{{ post.slug }}.jpg) center center no-repeat;"></a>
       <a href="{{ site.url }}/{{ post.category }}" class="category-label">{{ post.category }}</a>
     </div>
