@@ -1,7 +1,7 @@
 ---
 layout:   certificate
-title:    "Internship BISASIH Indonesia"
-slug:     internship-bisasih
+title:    "BISASIH Indonesia Internship"
+slug:     bisasih-internship
 category: miscellaneous
 issuer:   "BISASIH Indonesia"
 ---
