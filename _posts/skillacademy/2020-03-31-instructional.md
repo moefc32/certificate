@@ -1,7 +1,7 @@
 ---
 layout:   certificate
 title:    "Basic Instructional Design untuk Digitalisasi Konten Belajar"
-slug:     skillacademy-instructional
+slug:     instructional
 category: skillacademy
 issuer:   "Skill Academy"
 ---

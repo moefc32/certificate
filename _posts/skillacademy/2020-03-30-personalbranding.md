@@ -1,7 +1,7 @@
 ---
 layout:   certificate
 title:    "Personal Branding for Professional Purposes"
-slug:     skillacademy-personalbranding
+slug:     personalbranding
 category: skillacademy
 issuer:   "Skill Academy"
 ---

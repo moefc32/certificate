@@ -1,7 +1,7 @@
 ---
 layout:   certificate
 title:    "Copywriting : Trik Merangkai Kata untuk Tingkatkan Penjualan"
-slug:     skillacademy-copywriting
+slug:     copywriting
 category: skillacademy
 issuer:   "Skill Academy"
 ---

@@ -1,7 +1,7 @@
 ---
 layout:   certificate
 title:    "Jurnalistik : Teknik Menulis Naskah Berita Seperti Jurnalis Andal"
-slug:     skillacademy-jurnalistik
+slug:     jurnalistik
 category: skillacademy
 issuer:   "Skill Academy"
 ---

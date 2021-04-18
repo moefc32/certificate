@@ -1,7 +1,7 @@
 ---
 layout:   certificate
 title:    "The Fundamentals of Digital Marketing"
-slug:     google-marketing
+slug:     marketing
 category: google
 issuer:   "Google EMEA"
 ---

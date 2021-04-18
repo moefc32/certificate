@@ -1,7 +1,7 @@
 ---
 layout:   certificate
 title:    "Pameran Karya Mahasiswa se-Yayasan Pendidikan Telkom"
-slug:     seminar-pameranypt
+slug:     pameranypt
 category: seminar
 issuer:   "IDEAtainment"
 ---

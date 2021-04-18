@@ -1,7 +1,7 @@
 ---
 layout:   certificate
 title:    "UX Designer : Digital Product Development"
-slug:     skillacademy-digitalproduct
+slug:     digitalproduct
 category: skillacademy
 issuer:   "Skill Academy"
 ---

@@ -1,7 +1,7 @@
 ---
 layout:   certificate
 title:    "Modern Web Design"
-slug:     gymnasium-modernweb
+slug:     modernweb
 category: gymnasium
 issuer:   "Aquent Gymnasium"
 ---

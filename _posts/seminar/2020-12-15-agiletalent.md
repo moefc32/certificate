@@ -1,7 +1,7 @@
 ---
 layout:   certificate
 title:    "Agile Talent in Crisis"
-slug:     seminar-agiletalent
+slug:     agiletalent
 category: seminar
-issuer:   "Telkomsel"
+issuer:   "Indonesia Next by Telkomsel"
 ---

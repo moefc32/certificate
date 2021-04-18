@@ -1,7 +1,7 @@
 ---
 layout:   certificate
 title:    "Instagram Marketing Course : Get a Massive Amount of Instagram Followers"
-slug:     bitdegree-instagrammarketing
+slug:     instagrammarketing
 category: bitdegree
 issuer:   "BitDegree"
 ---

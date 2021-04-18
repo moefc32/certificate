@@ -1,7 +1,7 @@
 ---
 layout:   certificate
 title:    "Sistem Manajemen Mutu"
-slug:     seminar-manajemenmutu
+slug:     manajemenmutu
 category: seminar
 issuer:   "Lembaga Pengembangan dan Konsultasi Nasional"
 ---

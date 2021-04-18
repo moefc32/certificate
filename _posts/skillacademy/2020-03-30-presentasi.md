@@ -1,7 +1,7 @@
 ---
 layout:   certificate
 title:    "Jago Presentasi dalam 90 Menit"
-slug:     skillacademy-presentasi
+slug:     presentasi
 category: skillacademy
 issuer:   "Skill Academy"
 ---

@@ -1,7 +1,7 @@
 ---
 layout:   certificate
 title:    "Negotiation Skill : Seni Mendapatkan yang Kamu Inginkan"
-slug:     skillacademy-negotiation
+slug:     negotiation
 category: skillacademy
 issuer:   "Skill Academy"
 ---

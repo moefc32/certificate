@@ -1,7 +1,7 @@
 ---
 layout:   certificate
 title:    "UX Fundamentals"
-slug:     gymnasium-uxfundamentals
+slug:     uxfundamentals
 category: gymnasium
 issuer:   "Aquent Gymnasium"
 ---

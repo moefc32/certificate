@@ -1,7 +1,7 @@
 ---
 layout:   certificate
 title:    "Pelatihan Jurnalistik"
-slug:     pemateri-jurnalistik
+slug:     jurnalistik
 category: pemateri
 issuer:   "BEM Kema Telkom University"
 ---

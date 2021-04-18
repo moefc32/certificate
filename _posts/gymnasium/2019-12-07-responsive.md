@@ -1,7 +1,7 @@
 ---
 layout:   certificate
 title:    "Responsive Web Design Fundamentals"
-slug:     gymnasium-responsive
+slug:     responsive
 category: gymnasium
 issuer:   "Aquent Gymnasium"
 ---

@@ -2,6 +2,6 @@
 layout:   certificate
 title:    "Cisco Routing Essential"
 slug:     cisco-routing
-category: miscellaneous
+category: training
 issuer:   "Nixtrain"
 ---

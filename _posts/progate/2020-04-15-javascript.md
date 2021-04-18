@@ -1,7 +1,7 @@
 ---
 layout:   certificate
 title:    "Kursus JavaScript"
-slug:     progate-javascript
+slug:     javascript
 category: progate
 issuer:   "Progate Indonesia"
 ---
