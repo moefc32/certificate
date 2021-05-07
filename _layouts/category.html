@@ -41,7 +41,7 @@
   <div class="container">
     <section class="row certificate-feed">
       {% for post in site.categories[page.tag] %}
-      <div class="col-sm-4 col-md-3" title="{{ post.title }}">
+      <div class="col-sm-4 col-md-3" title="{{ post.title }}" data-aos="fade-up">
         <div class="card">
           <a href="{{ post.url }}" class="thumb lazy"
             style="background: url({{ site.url }}/lib/thumb/{{ post.category }}-{{ post.slug }}.jpg) center center no-repeat;"></a>
